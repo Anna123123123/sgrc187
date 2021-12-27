@@ -1,0 +1,90 @@
+.table {
+    border-collapse: collapse;
+    color: #fff;
+    
+    th {
+
+    }
+    th,
+    td {
+        padding: 6px;
+        text-align: left;
+    }
+
+    // td:nth-child(1),
+    // th:nth-child(1) {
+    //     min-width: 200px;
+    // }
+    // td:nth-child(2),
+    // th:nth-child(2) {
+    //     min-width: 200px;
+    // }
+    // td:nth-child(3),
+    // th:nth-child(3) {
+    //     width: 350px;
+    // }
+
+    thead {
+        background-color: rgb(65, 65, 65);
+        color: #fff;
+        tr {
+            // display: block;
+            // position: relative;
+        }
+    }
+    tbody {
+        tr {
+            border: 1px solid transparent;
+            padding: 1px;
+            cursor:pointer;
+        }
+        tr:hover{
+            border: 1px solid rgb(184, 189, 255);
+            color: #41b883;
+        }
+        tr:nth-child(even) {
+            background-color: var(--color-2);
+        }
+        tr:nth-child(even):hover{
+            border: 1px solid rgb(184, 189, 255);
+            color: #41b883;
+        }
+    }
+}
+
+.old_ie_wrapper {
+    height: 300px;
+    width: 750px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    tbody {
+        height: auto;
+    }
+}
+
+.form-group {
+    display:flex;
+    width: 400px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }

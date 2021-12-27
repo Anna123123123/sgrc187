@@ -1,0 +1,25 @@
+.is-dark {
+    background: var(--background-color2) !important;
+    border-color: var(--borderColor) !important;
+}
+
+.demo-card {
+    flex: 1;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #e5e5e5;
+    transition: all 0.3s;
+    position: relative;
+    margin-bottom: 1.5rem;
+
+    .content {
+        text-align: justify;
+        color: var(--color-text);
+        ul {
+            list-style-type: none;
+        }
+    }
+}

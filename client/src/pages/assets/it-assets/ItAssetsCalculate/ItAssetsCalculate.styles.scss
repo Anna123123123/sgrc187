@@ -1,0 +1,84 @@
+.calculation-card {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px 0px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(34, 60, 80, 0.34);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(34, 60, 80, 0.34);
+    box-shadow: 0px 0px 20px 0px rgba(34, 60, 80, 0.34);
+    color: black;
+    h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .calculation-card-header {
+        border-bottom: 1px solid #bbbbbb;
+    }
+
+    .calculation-card-footer {
+        border-top: 1px solid #bbbbbb;
+
+        button {
+            outline: none;
+            border: 1px solid #008a6c;
+            border-radius: 15px;
+            font-size: 20px;
+            color: #fff;
+            font-weight: 700;
+            background-color: #008a6c;
+            padding: 10px;
+            margin-top: 15px;
+            width: 100%;
+
+            &:hover {
+                border: 1px solid #00b991;
+                background-color: #00b991;
+            }
+        }
+    }
+
+    .form-group {
+        width: 100%;
+
+        input {
+            height: 56px;
+            border: 1px solid #bbbbbb;
+            padding: 0px 16px;
+            border-radius: 4px;
+            font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+            background-color: transparent;
+            color: #000000;
+            outline: none;
+
+            &:hover {
+                border: 1px solid #b7dcff;
+                background-color: #b7dcff;
+                cursor: pointer;
+            }
+
+            &:focus {
+                background-color: #ffdead;
+                border: 3px solid #979797;
+            }
+        }
+    }
+
+    .calculation-card {
+        border: 1px solid transparent;
+        -webkit-box-shadow: 0px 0px 13px -6px rgba(34, 60, 80, 0.34);
+        -moz-box-shadow: 0px 0px 13px -6px rgba(34, 60, 80, 0.34);
+        box-shadow: 0px 0px 13px -6px rgba(34, 60, 80, 0.34);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px 0px;
+        &:hover {
+            cursor: pointer;
+            border: 1px solid #00b991;
+            background-color: #00b991;
+        }
+    }
+}

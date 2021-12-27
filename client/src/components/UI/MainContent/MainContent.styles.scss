@@ -1,0 +1,38 @@
+.view-wrapper {
+    // overflow: hidden;
+    background: var(--color-2);
+    border-color: var(--color-2);
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+    width: calc(100% - 80px);
+    padding: 0 0 60px 0;
+    margin-left: 80px;
+    transition: all 0.3s;
+
+    .page-content-wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .page-content {
+            padding: calc(70px) calc(24px / 2) 60px calc(24px / 2);
+            padding: 0 40px;
+            .container-fluid {
+                margin-top: 20px;
+                width: 100%;
+                padding: 30px;
+                border-radius: 25px;
+                background-color: #fff;
+                width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+.is-pushed-full {
+    margin-left: 320px;
+    width: calc(100% - 320px);
+}
